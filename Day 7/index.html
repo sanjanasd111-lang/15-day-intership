@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Box</title>
+
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            color: brown;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border: 4px solid rgb(82, 3, 3);
+            border-radius: 10px;
+            background: orange;
+            transition: background 1s ease;
+            box-shadow: 0 5px 30px rgb(235, 86, 86);
+        }
+
+        .box:hover {
+            background: green;
+            box-shadow: 0 5px 30px rgb(235, 86, 86);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Hover Me</div>
+</body>
+</html>
