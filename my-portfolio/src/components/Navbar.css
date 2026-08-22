@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    background: black;
+    color: white;
+    padding: 30px;
+}

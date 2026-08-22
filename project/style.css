@@ -193,7 +193,7 @@
 }
 /* CONTACT SECTION */
 .contact-section{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBLLK1e3_73Sp0w4r8JwfFMS-Gxf8xb40t_wUObrbUw&s=10");
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeq9LVxJCbpSiuMtn7pvG5ZhwIidq7zBQntkJ87VcUQ&s=10");
     background-repeat: no-repeat;
     /*width: 1000px; */
     background-size: cover;
@@ -267,7 +267,7 @@ footer p{
     color: cornflowerblue;
     padding: 10px;
     border: 1px solid cornflowerblue;
-    border-radius:4px;
+    border-radius:9px;
 }
 #footer{
     margin-top: 15px;

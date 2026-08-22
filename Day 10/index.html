@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Method 1
+        function greet(name){
+            return `Hello ${name}`;
+        }
+    console.log(greet("Alex"));
+
+    //Method 2
+    //let greet = function(name){
+
+    //}
+    //Method 3--> Arrow function
+    let sum = (x,y) => x+y;
+    console.log(sum(2,3));
+    let add = function(x,y){
+        return x+y;
+    }
+    console.log(add(4,3));
+    // Creating a default parameter
+    function greetUser(name="Alex"){
+        return `Welcome ${name}`;
+    }
+    console.log(greetUser());//welcome Alex
+    console.log(greetUser("John"));//welcome john
+     </Script>   
+</body>
+</html>
