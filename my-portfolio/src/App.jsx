@@ -70,7 +70,7 @@ function App() {
           <div className="about-content">
             <figure className="profile-figure">
               <img
-                src="/profileWPS.jpeg"
+                src="/sanjana.jpeg"
                 alt="Sanjana SD"
                 className="profile-image"
               />
